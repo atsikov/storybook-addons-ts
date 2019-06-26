@@ -1,0 +1,25 @@
+{
+  "name": "storybook-addons-ts",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Aleksei Tsikov <atsikov@evolutiongaming.com>",
+  "license": "MIT",
+  "scripts": {
+    "storybook": "start-storybook --debug-webpack -p 9001"
+  },
+  "devDependencies": {
+    "@babel/core": "7.4.5",
+    "@storybook/react": "5.1.9",
+    "@types/lodash": "4.14.134",
+    "@types/react": "16.8.22",
+    "@types/react-dom": "16.8.4",
+    "babel-loader": "8.0.6",
+    "react": "16.8.6",
+    "react-dom": "16.8.6",
+    "ts-loader": "6.0.4",
+    "typescript": "3.5.2"
+  },
+  "dependencies": {
+    "lodash": "4.17.11"
+  }
+}
